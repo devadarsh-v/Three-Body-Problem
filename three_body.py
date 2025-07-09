@@ -51,7 +51,7 @@ def updatePositionAndVelocity(bodies, dt):
 
 # simulation parameters
 dt = 1000
-numSteps = 10000
+numSteps = 100000
 
 # positions for plotting
 positions = {body: [] for body in bodies}
